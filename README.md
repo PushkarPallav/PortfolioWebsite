@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Interactive Developer Portfolio
 
-## Getting Started
+A modern, responsive, and dark-themed developer portfolio built for **Pushkar Pallav** to showcase peer-reviewed research, deep learning systems, and backend engineering architectures.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo & Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Live URL**: `https://your-portfolio-name.vercel.app` *(update once deployed)*
+- **Hosted On**: [Vercel](https://vercel.com/) (Continuous deployment via GitHub)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, React)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations & Physics**: [Framer Motion](https://www.framer.com/motion/)
+- **3D & Canvas**: [Three.js](https://threejs.org/) / WebGL Particle Systems
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: Vercel CI/CD
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Key Features & Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Interactive Hero**: Dynamic glowing particle background, animated headline transitions, and quick call-to-actions.
+- **About Me**: Narrative overview focusing on Java enterprise backend systems and Generative AI / Deep Learning research.
+- **Research & Publications**: Showcase for the peer-reviewed planetary rover paper published with **Taylor & Francis Group (CRC Press)**.
+- **Featured Projects**:
+  - *GenAI AI Doctor with Vision and Voice* (Multimodal LLM / Voice AI)
+  - *Resume Parsing Automation using NER* (NLP / Google Form integration)
+  - *Automated Wildlife Recognition & Deterrence System* (YOLO / IoT)
+  - *Home Automation using IoT* (Embedded switch-based design)
+- **Skills Matrix**: Categorized, interactive filter cards for AI/ML, Programming, Backend Frameworks, and Core CS.
+- **Leadership & Honours**: Positions held at IEEE CIS and Yantrove, alongside competitive robot design awards and International Rover Challenge (IRC) final qualifications.
+- **Connect Hub**: Integrated direct links for GitHub, LinkedIn, Email, Phone, and LeetCode.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+├── app/
+│   ├── layout.tsx        # Root layout with fonts and metadata
+│   ├── page.tsx          # Main single-page portfolio view
+│   └── globals.css       # Global styles and Tailwind directives
+├── components/
+│   ├── Navbar.tsx        # Glassmorphic navigation bar
+│   ├── Hero.tsx          # Hero section with interactive visuals
+│   ├── About.tsx         # About me and core engineering pillars
+│   ├── Publications.tsx  # Taylor & Francis publication card
+│   ├── Projects.tsx      # Project showcase with modal previews
+│   ├── Skills.tsx        # Interactive filterable skill matrix
+│   └── Connect.tsx       # Bottom contact hub & social links
+├── public/
+│   └── pushkar-profile.jpg # Profile image asset
+├── package.json
+└── tailwind.config.js
+
